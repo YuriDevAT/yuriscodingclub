@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <div className="app">
         <div className="container">
           <h1 className="header">
-            Happy New Year in
+            Yuris Coding Club Is Coming In
           </h1>
           <Timer />
         </div>
