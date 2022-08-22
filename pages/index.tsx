@@ -35,7 +35,7 @@ const Timer = () => {
 
   const deadline = "December, 31, 2022";
 
-  const getTime = () => {
+  const getTime = (deadline: string) => {
     const time = Date.parse(deadline) - Date.now();
 
     setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
