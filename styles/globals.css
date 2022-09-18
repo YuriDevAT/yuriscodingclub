@@ -1,26 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&family=Lato&display=swap');
+
+:root {
+  --link-color: #000;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  font-family: 'Dosis', Helvetica Neue, sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+body {
+  font-size: 1.5rem;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.header {
+  align-items: center;
+  background: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  padding: 0 50px;
+  width: 100%;
+}
+
+.navbar a {
+  border-block-end: 3px solid var(--border-color, transparent);
+  color: var(--link-color);
+  font-weight: 500;
+  margin-block-end: 0.5rem;
+  margin-inline-end: 0.5rem;
+  padding: 20px;
+  position: sticky;
+  text-decoration: none;
+}
+
+.navbar a:where(:hover, :focus) {
+  --border-color: var(--link-color);
+}
+
+[aria-current="page"] {
+  color: red;
+}
+
+.footer {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 50px;
 }
