@@ -6,9 +6,9 @@ import Footer from './Footer';
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
-      <a href="#main">Skip to main content</a>
+      <a href="#main" className="skip-link" >Skip to main content</a>
       <Header />
-      <main className="container" id="main">
+      <main className="main-container" id="main">
         {children}
       </main>
       <Footer />
