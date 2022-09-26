@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="https://github.com/YurisCodingClub">Check out the source projects</a>
       </div>
       <div className="copyright">
-        <p> Made with <span style={{ color: "#EB93BF" }} aria-label="love">&#10084;</span> and <span aria-label="music">&#9835;</span> by Julia Undeutsch.</p>
+        <p> Made with <span style={{ color: "#d82c82" }}>&#10084;</span> and <span>&#9835;</span> by Julia Undeutsch.</p>
         <p>&copy; Yuris Coding Club 2022 . All rights reserved.</p>
       </div>
     </footer>
