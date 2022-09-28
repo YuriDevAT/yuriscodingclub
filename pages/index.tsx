@@ -19,6 +19,11 @@ const Home: NextPage = () => {
       <h2>Hacktoberfest 2022</h2>
       <p>Join Hacktoberfest by contributing to open source projects I provide for Yuris Coding Club.</p>
       <a href="https://github.com/YurisCodingClub">Check out the source projects</a>
+      <div className="hacktober">
+        <a href="https://hacktoberfest.com/">
+          <img src="/images/hacktoberfest1.svg" alt="Hacktoberfest 2022" width={250} height={85} />
+        </a>
+      </div>
     </>
   )
 }

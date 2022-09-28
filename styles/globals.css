@@ -129,7 +129,7 @@ nav li {
 .footer {
   background-color: #F5F5F5;
   bottom: 0;
-  height: 350px;
+  min-height: 350px;
   padding: 20px;
   position: relative;
   text-align: center;
@@ -138,6 +138,7 @@ nav li {
 
 .sitemap {
   border-block-end: 1px solid #d5d5d5;
+  display: flex;
   height: 70%;
 }
 
@@ -149,4 +150,8 @@ nav li {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+.hacktober {
+  padding-top: 30px;
 }
