@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from './Navbar';
 
@@ -7,9 +6,10 @@ const Header = () => {
     <header className="header-outer">
       <div className="header-inner">
         <Link href="/">
-          <a>
-            <Image priority src="/images/logo.svg" height={80} width={305} alt="Yuris Coding Club" />
-          </a>
+          <div className="logo-container">
+            <a className="logo" aria-label="back to home">
+            </a>
+          </div>
         </Link>
         <Navbar />
       </div>

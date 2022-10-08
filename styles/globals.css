@@ -73,6 +73,33 @@ nav li {
   width: 100%;
 }
 
+.logo-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 310px;
+}
+
+.logo {
+  background: url("/images/logo.svg") no-repeat;
+  display: inline-block;
+  height: 82px;
+  width: 305px;
+}
+
+@media (max-width: 870px) {
+  .logo-container {
+    width: 300px;
+  }
+
+  .logo {
+    background: url("/images/logo-small.svg") no-repeat;
+    height: 82px;
+    padding: 0 10px;
+    width: 102px;
+  }
+}
+
 .navbar a {
   border-block-end: 3px solid var(--border-color, transparent);
   color: var(--link-color);
@@ -111,7 +138,6 @@ nav li {
 
 @media (max-width: 400px) {
   .footer {
-    height: 0;
     min-height: 450px;
   }
 
@@ -139,6 +165,7 @@ nav li {
 .sitemap {
   border-block-end: 1px solid #d5d5d5;
   height: 70%;
+  padding-bottom: 20px;
 }
 
 .copyright {
