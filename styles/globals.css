@@ -2,6 +2,21 @@
 
 :root {
   --link-color: #000;
+  --text-color-dark: #000;
+  --text-color-light: #fff;
+  --bg-color: #fff;
+  --pink-middle: #eb93bf;
+  --pink-light: #f7d4e6;
+  --pink-dark: #d82c82;
+  --yellow-middle: #eb93bf;
+  --yellow-light: #fff7cc;
+  --yellow-dark: #ffd700;
+  --green-middle: #63c9b4;
+  --green-light: #d9f2ed;
+  --green-dark: #277263;
+  --blue-middle: #1a67f8;
+  --blue-light: #e6effe;
+  --blue-dark: #0640ac;
 }
 
 html,
@@ -19,8 +34,13 @@ body {
   font-size: 1.5rem;
 }
 
+a:visited {
+  color: var(--blue-middle);
+}
+
 p,
-li {
+li,
+a {
   font-family: 'Lato', 'Helvetica Neue', sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
@@ -59,6 +79,7 @@ nav li {
   position: sticky;
   top: -50px;
   width: 100%;
+  z-index: 1;
 }
 
 .header-inner {
@@ -180,4 +201,79 @@ nav li {
 
 .hacktober {
   padding-top: 30px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
+  margin: 40px 0;
+}
+
+.article {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  width: 30%;
+}
+
+.article a {
+  height: inherit;
+  text-decoration: none;
+}
+
+.article h4 {
+  background-color: var(--green-dark);
+  color: var(--text-color-light);
+  font-size: 1.3rem;
+  font-family: 'Dosis', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  height: 30%;
+  margin: 0;
+  padding: 20px 10px;
+}
+
+.article p {
+  background-color: var(--green-light);
+  color: var(--text-color-dark);
+  font-size: 1rem;
+  height: 70%;
+  margin: 0;
+  padding: 20px;
+}
+
+.linked-tag {
+  background-color: var(--blue-middle);
+  color: var(--text-color-light);
+  font-size: 1rem;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.linked-tag:visited {
+  color: var(--text-color-light);
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns: 18% 82%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "heading heading heading heading"
+    "image paragraph paragraph paragraph"
+}
+
+.about-me h2 {
+  grid-area: heading;
+}
+
+.profile-img {
+  grid-area: image;
+}
+
+.profile-img+p {
+  grid-area: paragraph;
 }
