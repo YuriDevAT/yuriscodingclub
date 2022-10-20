@@ -25,9 +25,9 @@ const GetIntoCoding = () => {
         <li>You will learn how to use Git and GitHub and how to host your portfolio</li>
       </ul>
       <p>
-        Starting your journey is just a <a href="https://frontendmasters.com/bootcamp/">click away</a>. You can do it. 💪
+        Starting your journey is just a <a href="https://frontendmasters.com/bootcamp/" aria-label="Go to Frontend Masters Bootcamp Website">click away</a>. You can do it. 💪
       </p>
-      <a href="https://frontendmasters.com/bootcamp/">Go to FrontendMasters Website</a>
+      <a href="https://frontendmasters.com/bootcamp/">Go to Frontend Masters Bootcamp Website</a>
     </>
   )
 }
