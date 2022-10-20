@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 
 export const siteTitle = 'About Yuris Coding Club';
 
@@ -25,18 +26,20 @@ const About = () => {
       <h3>Phase 3: Get a job</h3>
       <p><b>Job-ready developers</b> often wonder when looking for a job if their CV, GitHub profile and LinkedIn profile will be well received and if their projects are ready to be shown. This phase is meant to make sure that everything is thought of before applying.
       </p>
-      <h2>Who am I 👩‍💻</h2>
-      <a href="https://github.com/YuriDevAT" style={{ float: "left", paddingRight: "25px" }}>
-        <img src="https://github.com/yuridevat.png" alt="Julia Undeutsch" width={150} height={150} />
-      </a>
-      <p>
-        My name is Julia and I&apos;m a self-taught developer who switched careers in my early 30s after studying Musicology and Japanese Studies while working at a Casino.<br />
-        After a full year of hard learning I started looking for a job and found one right away.
-        That year was not easy, many ups and downs, so much to learn, but I never gave up and all the work finally paid off. <br />
-        I learned a lot throughout this year about how to create a good CV, LinkedIn profile, and GitHub profile, how to pimp my portfolio and prepare for interviews in order to get a job.<br />
-        But these things needed time. Time I want to spare you by sharing my knowledge with you.
-        I&apos;m looking forward to helping you on your journey to becoming a developer.
-      </p>
+      <section className="about-me">
+        <h2>Who am I 👩‍💻</h2>
+        <a href="https://github.com/YuriDevAT" className="profile-img" >
+          <Image src="https://github.com/yuridevat.png" alt="Julia Undeutsch" width={150} height={150} />
+        </a>
+        <p>
+          My name is Julia and I&apos;m a self-taught developer who switched careers in my early 30s after studying Musicology and Japanese Studies while working at a Casino.<br />
+          After a full year of hard learning I started looking for a job and found one right away.
+          That year was not easy, many ups and downs, so much to learn, but I never gave up and all the work finally paid off. <br />
+          I learned a lot throughout this year about how to create a good CV, LinkedIn profile, and GitHub profile, how to pimp my portfolio and prepare for interviews in order to get a job.<br />
+          But these things needed time. Time I want to spare you by sharing my knowledge with you.
+          I&apos;m looking forward to helping you on your journey to becoming a developer.
+        </p>
+      </section>
       <h2>Get in touch 📧</h2>
       <p>
         You can always contact me if you have any questions. I would also be very happy if you share your success stories with me.
