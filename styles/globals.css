@@ -108,6 +108,7 @@ nav li {
   width: 305px;
 }
 
+/* 
 @media (max-width: 870px) {
   .logo-container {
     width: 300px;
@@ -119,7 +120,7 @@ nav li {
     padding: 0 10px;
     width: 102px;
   }
-}
+} */
 
 .navbar a {
   border-block-end: 3px solid var(--border-color, transparent);
@@ -135,7 +136,64 @@ nav li {
   --border-color: var(--link-color);
 }
 
-@media (max-width: 1000px) {
+.tooltip {
+  border-bottom: 1px dotted var(--blue-dark);
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+}
+
+.tooltip .tooltipText {
+  background-color: var(--blue-light);
+  border-radius: 6px;
+  color: var(--blue-dark);
+  left: 50%;
+  margin-left: -60px;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  visibility: hidden;
+  width: 120px;
+  z-index: 1;
+}
+
+.tooltip .tooltipText::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent var(--blue-light) transparent;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}
+
+@media (max-width: 1119px) {
+  .logo-container {
+    display: none;
+  }
+
+  .header-inner {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 850px) {
+
+  .navbar a,
+  .tooltip {
+    font-size: 16px;
+  }
+}
+
+/* @media (max-width: 1000px) {
   .header {
     padding: 0 10px;
   }
@@ -155,16 +213,16 @@ nav li {
   .header-inner {
     height: 150px;
   }
-}
+} */
 
 @media (max-width: 400px) {
   .footer {
     min-height: 450px;
   }
 
-  .header-outer {
+  /* .header-outer {
     top: 0;
-  }
+  } */
 }
 
 .main-container {

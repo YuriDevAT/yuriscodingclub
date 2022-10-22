@@ -24,6 +24,14 @@ const Navbar = () => {
             <a>get a job</a>
           </Link>
         </li>
+        <li>
+          {/* <Link href="/junior-to-senior"> */}
+          <p className="tooltip">junior to senior
+            <span className="tooltipText">
+              coming soon
+            </span></p>
+          {/* </Link> */}
+        </li>
       </ul>
     </nav>
   );
