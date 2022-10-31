@@ -9,7 +9,7 @@ const GetIntoCoding = () => {
         <title>{siteTitle}</title>
       </Head>
       <h1>{siteTitle}</h1>
-      Starting the right way could have been so easy.
+      <p>Starting the right way could have been so easy.</p>
 
       <h2>Hello CodeNewbie, nice to meet you 👋</h2>
       <p>
@@ -28,6 +28,12 @@ const GetIntoCoding = () => {
         Starting your journey is just a <a href="https://frontendmasters.com/bootcamp/" aria-label="Go to Frontend Masters Bootcamp Website">click away</a>. You can do it. 💪
       </p>
       <a href="https://frontendmasters.com/bootcamp/">Go to Frontend Masters Bootcamp Website</a>
+      <h2>Interested in how I got into coding? Read my story here.</h2>
+      <p>I walked myself through every tutorial about <a href="https://www.w3schools.com/html/default.asp">HTML</a>, <a href="https://www.w3schools.com/css/default.asp">CSS</a>, and <a href="https://www.w3schools.com/js/default.asp">JavaScript</a> on <a href="https://www.w3schools.com/">w3schools</a>.</p>
+      <p>Don&apos; t get me wrong. I learned a lot by doing so. And the site even improved a lot since back then in 2020. But it would also have been good to have someone to explain things verbally as well to understand it better. Not everyone needs verbal explanations, of course, but for me it would have been better.
+      </p>
+      <p>I <b>highly recommend</b> that after completing the FrontendMasters BootCamp, you go through all the tutorials on w3schools because repetition is the key to remembering (all) what you have learned.</p>
+
     </>
   )
 }

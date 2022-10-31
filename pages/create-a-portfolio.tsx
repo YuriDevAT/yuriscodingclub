@@ -21,6 +21,9 @@ const CreateAPortfolio = () => {
       <p>
         <b>Note:</b> If you have a GitHub student account, I recommend you to use it to get access to the <a href="https://education.github.com/pack">GitHub Student Developer Pack</a>. It&apos;s a great way to get access to a lot of useful tools and services for free, e.g. full access to FrontendMasters, Jetbrains Academy, Microsoft Azure and much more.
       </p>
+      <h2>Create a portfolio as a frontend web developer</h2>
+      <h2>Create a portfolio as a UX Designer</h2>
+      <h2>Create a portfolio as a QA tester</h2>
     </>
   )
 }

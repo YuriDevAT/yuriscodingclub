@@ -1,13 +1,12 @@
 import type { NextPage } from 'next'
 import Link from 'next/link';
-import styles from '../styles/Home.module.css';
 
 export const siteTitle = 'Yuris Coding Club';
 
 const Home: NextPage = () => {
   return (
     <>
-      <h1 className={styles.title}>
+      <h1>
         Welcome to {siteTitle}!
       </h1>
       <p>

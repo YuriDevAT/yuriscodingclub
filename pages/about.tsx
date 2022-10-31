@@ -29,7 +29,7 @@ const About = () => {
       <section className="about-me">
         <h2>Who am I 👩‍💻</h2>
         <a href="https://github.com/YuriDevAT" className="profile-img" >
-          <Image src="https://github.com/yuridevat.png" alt="Julia Undeutsch" width={150} height={150} />
+          <Image src="https://github.com/yuridevat.png" alt="Julia Undeutsch's GitHub profile" width={150} height={150} />
         </a>
         <p>
           My name is Julia and I&apos;m a self-taught developer who switched careers in my early 30s after studying Musicology and Japanese Studies while working at a Casino.<br />
@@ -43,8 +43,7 @@ const About = () => {
       <h2>Get in touch 📧</h2>
       <p>
         You can always contact me if you have any questions. I would also be very happy if you share your success stories with me.
-        <br />
-        Email me at <a href="mailto:yuridevat@gmail.com">yuridevat@gmail.com</a>
+        Email me at <a href="mailto:yuridevat@gmail.com">yuridevat@gmail.com</a>.
       </p>
     </>
   )
