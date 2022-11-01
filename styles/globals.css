@@ -17,6 +17,7 @@
   --blue-middle: #1a67f8;
   --blue-light: #e6effe;
   --blue-dark: #0640ac;
+  --bg-light-grey: #f1f1f1;
 }
 
 html,
@@ -108,20 +109,6 @@ nav li {
   width: 305px;
 }
 
-/* 
-@media (max-width: 870px) {
-  .logo-container {
-    width: 300px;
-  }
-
-  .logo {
-    background: url("/images/logo-small.svg") no-repeat;
-    height: 82px;
-    padding: 0 10px;
-    width: 102px;
-  }
-} */
-
 .navbar a {
   border-block-end: 3px solid var(--border-color, transparent);
   color: var(--link-color);
@@ -163,7 +150,6 @@ nav li {
   content: " ";
   position: absolute;
   bottom: 100%;
-  /* At the top of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
@@ -193,36 +179,10 @@ nav li {
   }
 }
 
-/* @media (max-width: 1000px) {
-  .header {
-    padding: 0 10px;
-  }
-}
-
-@media (max-width: 950px) {
-  .navbar a {
-    padding: 5px;
-  }
-}
-
-@media (max-width: 450px) {
-  .header-outer {
-    top: 0;
-  }
-
-  .header-inner {
-    height: 150px;
-  }
-} */
-
 @media (max-width: 400px) {
   .footer {
     min-height: 450px;
   }
-
-  /* .header-outer {
-    top: 0;
-  } */
 }
 
 .main-container {
@@ -261,7 +221,8 @@ nav li {
   padding-top: 30px;
 }
 
-.articles {
+.articles,
+.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -269,7 +230,8 @@ nav li {
   margin: 40px 0;
 }
 
-.article {
+.article,
+.card {
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -284,6 +246,11 @@ nav li {
   text-decoration: none;
 }
 
+.card a {
+  height: 100%;
+  text-decoration: none;
+}
+
 .article h4 {
   background-color: var(--green-dark);
   color: var(--text-color-light);
@@ -294,7 +261,8 @@ nav li {
   padding: 20px 10px;
 }
 
-.article p {
+.article p,
+.card p {
   color: var(--text-color-dark);
   font-size: 1rem;
   height: 70%;
@@ -324,4 +292,27 @@ nav li {
     float: none;
     margin: 0 auto;
   }
+}
+
+.card h3 {
+  background: var(--bg-light-grey) url(/images/bird-yellow.png) no-repeat 90% 50%;
+  background-size: 150px auto;
+  font-size: 4rem;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.card span {
+  color: var(--text-color-dark);
+  font-size: 1.5rem;
+}
+
+.card-two h3 {
+  background: var(--bg-light-grey) url(/images/bird-pink.png) no-repeat 90% 50%;
+  background-size: 150px auto;
+}
+
+.card-three h3 {
+  background: var(--bg-light-grey) url(/images/bird-green.png) no-repeat 90% 50%;
+  background-size: 150px auto;
 }

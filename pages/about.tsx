@@ -14,9 +14,44 @@ const About = () => {
       <p> This website is for anyone who wants to set foot into tech by becoming a Frontend Developer with strong focus on Accessibility and gain insight from a self-taught developer who was in the same position not too long ago.
       </p>
       <h2>
-        A roadmap for everyone 👥
+        A road map for everyone 👥
       </h2>
       <p>I divide the journey into three phases, as I have experienced it myself.</p>
+
+      <section className="cards">
+        <article className="card card-one">
+          <a href="https://www.yuriscodingclub.com/get-into-coding">
+            <h3>Phase 1 <br />
+              <span>Get into coding</span>
+            </h3>
+            <p>
+              Especially for <b>beginners</b>, it&apos;s often not easy to not lose track, stay consistent, and know what matters. It&apos;s too easy to get overwhelmed by too much information. That&apos;s why I&apos;ve made a lot of notes along my journey about how I would like to have taken the path as a developer if I were starting over.
+            </p>
+          </a>
+        </article>
+        <article className="card card-two">
+          <a href="https://www.yuriscodingclub.com/create-a-portfolio">
+            <h3>Phase 2 <br />
+              <span>Create a portfolio</span>
+            </h3>
+            <p>
+              Somewhat more <b>experienced developers</b> often wonder what projects to put on their resume, how to develop ideas, and what it would be like to work on a team or on a real project at a company. I will outline these paths as best I can.
+            </p>
+          </a>
+        </article>
+        <article className="card card-three">
+          <a href="https://www.yuriscodingclub.com/get-a-job">
+            <h3>Phase 3 <br />
+              <span>Get a job</span>
+            </h3>
+            <p>
+              <b>Job-ready developers</b> often wonder when looking for a job if their CV, GitHub profile and LinkedIn profile will be well received and if their projects are ready to be shown. This phase is meant to make sure that everything is thought of before applying.
+            </p>
+          </a>
+        </article>
+      </section>
+
+
       <h3>Phase 1: Get into coding</h3>
       <p>Especially for <b>beginners</b>, it&apos;s often not easy to not lose track, stay consistent, and know what matters. It&apos;s too easy to get overwhelmed by too much information. That&apos;s why I&apos;ve made a lot of notes along my journey about how I would like to have taken the path as a developer if I were starting over.
       </p>
