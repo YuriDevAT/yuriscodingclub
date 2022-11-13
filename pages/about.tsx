@@ -52,7 +52,7 @@ const About = () => {
       </section>
 
 
-      <h3>Phase 1: Get into coding</h3>
+      {/* <h3>Phase 1: Get into coding</h3>
       <p>Especially for <b>beginners</b>, it&apos;s often not easy to not lose track, stay consistent, and know what matters. It&apos;s too easy to get overwhelmed by too much information. That&apos;s why I&apos;ve made a lot of notes along my journey about how I would like to have taken the path as a developer if I were starting over.
       </p>
       <h3>Phase 2: Create a portfolio</h3>
@@ -60,7 +60,7 @@ const About = () => {
       </p>
       <h3>Phase 3: Get a job</h3>
       <p><b>Job-ready developers</b> often wonder when looking for a job if their CV, GitHub profile and LinkedIn profile will be well received and if their projects are ready to be shown. This phase is meant to make sure that everything is thought of before applying.
-      </p>
+      </p> */}
       <section className="about-me">
         <h2>Who am I 👩‍💻</h2>
         <a href="https://github.com/YuriDevAT" className="profile-img" >

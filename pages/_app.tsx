@@ -8,6 +8,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Yuris Coding Club</title>
+        <meta name="viewport" content="viewport-fit=cover" />
         <meta name="description" content="Learn how to become an accessibility and frontend developer yourself" />
         <link rel="icon" href="/favicon.ico" />
         <meta
