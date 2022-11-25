@@ -70,6 +70,10 @@ nav li {
   top: 0;
 }
 
+/** ############################################## 
+* ################### HEADER ####################
+* ############################################## */
+
 .header-outer {
   align-items: center;
   background: white;
@@ -96,18 +100,15 @@ nav li {
   width: 100%;
 }
 
-.logo-container {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  width: 310px;
-}
+/* .logo-container {
+  width: 100%;
+  height: 100px;
+} */
 
 .logo {
-  background: url("/images/logo.svg") no-repeat;
   display: inline-block;
-  height: 82px;
-  width: 305px;
+  height: 100%;
+  width: auto;
 }
 
 .navbar a {
@@ -162,52 +163,71 @@ nav li {
   visibility: visible;
 }
 
-@media (max-width: 1119px) {
-  .logo-container {
-    display: none;
+@media (max-width: 980px) {
+
+  .header-outer {
+    height: auto;
+    top: 0;
   }
 
   .header-inner {
-    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
   }
 }
 
-@media (max-width: 400px) {
-  .footer {
-    min-height: 450px;
+@media (max-width: 850px) {
+
+  .navbar a,
+  .tooltip {
+    font-size: 16px;
+  }
+
+  .article,
+  .card {
+    margin: 30px 0;
+    width: 100%;
   }
 }
+
+@media (max-width: 780px) {
+
+  .navbar ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 60px;
+  }
+}
+
+@media (max-width: 630px) {
+
+  .navbar ul {
+    gap: 12px 20px;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar a {
+    padding-bottom: 10px;
+  }
+}
+
+/** ############################################## 
+* ################### MAIN ####################
+* ############################################## */
 
 .main-container {
   margin: 0 auto;
   max-width: 1080px;
   padding: 0 50px 50px;
-}
-
-.footer {
-  background-color: #F5F5F5;
-  bottom: 0;
-  min-height: 350px;
-  padding: 20px;
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-
-.sitemap {
-  border-block-end: 1px solid #d5d5d5;
-  height: 70%;
-  padding-bottom: 20px;
-}
-
-.copyright {
-  color: #000;
-  font-size: 1rem;
-  font-weight: 500;
-  height: 30%;
-  margin: 0;
-  padding: 0;
-  text-align: center;
 }
 
 .hacktober {
@@ -310,37 +330,40 @@ nav li {
   background-size: 150px auto;
 }
 
-@media (max-width: 850px) {
 
-  .navbar a,
-  .tooltip {
-    font-size: 16px;
-  }
+/** ############################################## 
+* ################### FOOTER ####################
+* ############################################## */
 
-  .article,
-  .card {
-    margin: 30px 0;
-    width: 100%;
-  }
+.footer {
+  background-color: #F5F5F5;
+  bottom: 0;
+  min-height: 350px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
-@media (max-width: 760px) {
+.sitemap {
+  border-block-end: 1px solid #d5d5d5;
+  height: 70%;
+  padding-bottom: 20px;
+}
 
-  .header-outer {
-    height: auto;
-    top: 0;
-  }
+.copyright {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 30%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
-  .header-inner {
-    height: 100%;
-    width: 100%;
-  }
+@media (max-width: 400px) {
 
-  nav ul {
-    text-align: center;
-  }
-
-  nav li {
-    margin: 10px;
+  .footer {
+    min-height: 450px;
   }
 }

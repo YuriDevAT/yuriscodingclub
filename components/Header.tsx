@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from './Navbar';
 
@@ -7,7 +8,12 @@ const Header = () => {
       <div className="header-inner">
         <Link href="/">
           <div className="logo-container">
-            <a className="logo" aria-label="back to home">
+            <a className="logo" aria-label="Go to homepage">
+              <Image
+                src="/images/YCC.svg"
+                alt=""
+                height={90}
+                width={130} />
             </a>
           </div>
         </Link>
