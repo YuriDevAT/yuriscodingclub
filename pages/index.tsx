@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       </p>
       <div className="button-container">
         <Link href="/about">
-          <a className="home-button">Let&apos;s get started &rarr;</a>
+          <a className="home-button">Let&apos;s get started</a>
         </Link>
       </div>
       {/* <h2>Hacktoberfest 2022</h2>
