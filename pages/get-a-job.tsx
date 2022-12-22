@@ -76,7 +76,7 @@ const GetAJob = () => {
       <a className="linked-tag" href="https://github.com/YuriDevAT/job-seekers/wiki/Checklist-for-your-portfolio-projects">Grab the checklist</a>
       <h3>Interview preparation</h3>
       <p>
-        It would be a good practice to keep all the information about the applied jobs in one file. That&apos;s where <a href="https://instinctive-cycle-28f.notion.site/Job-Applications-Template-3ecf0503f6a2401da865b29f72da58a7">Notion&apos;s Job Applications Template</a> comes in handy. You can add the companies you applied to and the job description to be up to date when the final call comes (each job description is different, so preparing for it is sometimes very different).
+        It would be a good practice to keep all the information about the applied jobs in one file. That&apos;s where <a href="https://www.notion.so/templates/job-applications">Notion&apos;s Job Applications Template</a> comes in handy. You can add the companies you applied to and the job description to be up to date when the final call comes (each job description is different, so preparing for it is sometimes very different).
       </p>
       <p>
         To help you prepare, I&apos;ve put together a collection of interview questions I&apos;ve been asked often that you might want to know. There are so many collections of interview questions, so I personally focused my interview preparation only on the personal questions and acquired the necessary knowledge to be able to talk about my projects, which seemed enough. (Otherwise I would have gone crazy 🤪)
