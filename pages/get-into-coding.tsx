@@ -28,6 +28,9 @@ const GetIntoCoding = () => {
         Starting your journey is just a <a href="https://frontendmasters.com/bootcamp/" aria-label="Go to Frontend Masters Bootcamp Website">click away</a>. You can do it. 💪
       </p>
       <a href="https://frontendmasters.com/bootcamp/">Go to Frontend Masters Bootcamp Website</a>
+      <h2>Find a niche</h2>
+      <p>I suggest you look for a niche as early as possible, like Accessibility or UX Design. Focusing on GitHub Automation is also a possibility. No matter what, a good combination of coding skills and other tech skills will greatly increase your chances of finding a job as a frontend developer.
+      </p>
       <h2>Interested in how I got into coding? Read my story here.</h2>
       <p>I walked myself through every tutorial about <a href="https://www.w3schools.com/html/default.asp">HTML</a>, <a href="https://www.w3schools.com/css/default.asp">CSS</a>, and <a href="https://www.w3schools.com/js/default.asp">JavaScript</a> on <a href="https://www.w3schools.com/">w3schools</a>.</p>
       <p>Don&apos; t get me wrong. I learned a lot by doing so. And the site even improved a lot since back then in 2020. But it would also have been good to have someone to explain things verbally as well to understand it better. Not everyone needs verbal explanations, of course, but for me it would have been better.
