@@ -323,6 +323,11 @@ h1 {
   text-decoration: none;
 }
 
+.article a:focus-visible {
+  outline: 2px solid var(--green-dark);
+  outline-offset: 2px;
+}
+
 .card a {
   height: 100%;
   text-decoration: none;
@@ -353,6 +358,10 @@ h1 {
   font-size: 1.2rem;
   padding: 10px;
   text-decoration: none;
+}
+
+.linked-tag:focus, .linked-tag:focus-visible {
+  outline-offset: 2px;
 }
 
 .linked-tag:visited {
