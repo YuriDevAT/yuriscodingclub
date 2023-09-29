@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </h1>
       <p className="home__text">
         Are you ready to become an Frontend Developer focused on Accessibility?<br />
-        Especially for <b>women of all ages and people with disabilities</b>, YurisCodingClub aims to be a community with which they can achieve their goals.
+        Especially for <b>women of all ages and people with disabilities</b>, YurisCodingClub aims to be a community with which <span className="upper">you</span> can achieve your goals.
       </p>
       <div className="button-container">
         <Link href="/about">

@@ -333,6 +333,10 @@ h1 {
   text-decoration: none;
 }
 
+span.upper {
+  text-transform: uppercase;
+}
+
 .article h4 {
   background-color: var(--green-dark);
   color: var(--text-color-light);
