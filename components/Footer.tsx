@@ -16,7 +16,7 @@ const Footer = () => {
 
       </div>
       <div className="copyright">
-        <p> Made with <span style={{ color: "#d82c82" }}>&#10084;</span> and <span>&#9835;</span> by Julia Undeutsch.</p>
+        <p> Made with <span style={{ color: "#CB2578" }}>&#10084;</span> and <span>&#9835;</span> by Julia Undeutsch.</p>
         <p>&copy; Yuris Coding Club {currentYear}. All rights reserved.</p>
       </div>
     </footer>
