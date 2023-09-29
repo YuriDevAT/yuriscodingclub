@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="sitemap">
@@ -15,7 +17,7 @@ const Footer = () => {
       </div>
       <div className="copyright">
         <p> Made with <span style={{ color: "#d82c82" }}>&#10084;</span> and <span>&#9835;</span> by Julia Undeutsch.</p>
-        <p>&copy; Yuris Coding Club 2022 . All rights reserved.</p>
+        <p>&copy; Yuris Coding Club {currentYear}. All rights reserved.</p>
       </div>
     </footer>
   )
