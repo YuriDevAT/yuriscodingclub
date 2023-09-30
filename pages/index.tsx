@@ -11,9 +11,10 @@ const Home: NextPage = () => {
         Welcome to <br />
         <Image src="/images/YurisCodingClub.svg" width={650} height={150} alt={siteTitle} />
       </h1>
+      <p className="upper">The most inclusive open source community!</p>
       <p className="home__text">
         Are you ready to become an Frontend Developer focused on Accessibility?<br />
-        Especially for <b>women of all ages and people with disabilities</b>, YurisCodingClub aims to be a community with which <span className="upper">you</span> can achieve your goals.
+        Especially for <b>people with disabilities and women of all ages</b>, YurisCodingClub aims to be a community with which <span className="upper">you</span> can achieve your goals.
       </p>
       <div className="button-container">
         <Link href="/about">
