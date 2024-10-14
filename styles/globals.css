@@ -129,7 +129,7 @@ nav li {
 
 .tooltip {
   border-bottom: 1px dotted var(--blue-dark);
-  color: rgba(0, 0, 0, 0.5);
+  color: #757575;
   display: inline-block;
   margin: 20px;
   position: relative;
@@ -253,6 +253,10 @@ h1 {
 
 .button-container {
   padding: 50px 0;
+}
+
+a:has(.home-button) {
+  text-decoration: none;
 }
 
 .home-button {

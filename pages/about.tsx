@@ -13,7 +13,7 @@ const About = () => {
       <h1>About This Website</h1>
       <p> This website is for anyone who wants to set foot into tech by becoming a Frontend Developer with strong focus on accessibility and gain insight from a self-taught developer who was in the same position not too long ago.
       </p>
-      <h3>Why accessibility?</h3>
+      <h2>Why accessibility?</h2>
       <p>In the next few years there will be a strong demand on accessibility designer, developers and testers, because the law is getting more strict. LinkedIn even added accessibility to their job titles not too long ago.</p>
       <p>Read more about it in my blog post:{'     '}
         <a className="linked-tag" href="https://dev.to/yuridevat/why-to-focus-on-accessibility-10hp">Why To Focus On Accessibility

@@ -73,7 +73,7 @@ const GetAJob = () => {
       <p>
         So here&apos;s a checklist, that you can work through for each of your projects and check that you&apos;ve considered these things at all. Of course, no project has to be perfect and no project will ever be finished. But it&apos;s still a great feeling to know that you gave it your all to get the most out of each project. If you follow these simple steps, you&apos;ll have a lot more to talk about in job interviews.
       </p>
-      <a className="linked-tag" href="https://github.com/YuriDevAT/job-seekers/wiki/Checklist-for-your-portfolio-projects">Grab the checklist</a>
+      <a className="linked-tag" href="https://github.com/YuriDevAT/yuriscodingclub/wiki/Project-Checklist">Grab the checklist</a>
       <h3>Interview preparation</h3>
       <p>
         It would be a good practice to keep all the information about the applied jobs in one file. That&apos;s where <a href="https://www.notion.so/templates/job-applications">Notion&apos;s Job Applications Template</a> comes in handy. You can add the companies you applied to and the job description to be up to date when the final call comes (each job description is different, so preparing for it is sometimes very different).
@@ -84,7 +84,7 @@ const GetAJob = () => {
       <p>
         Hopefully it is self-explanatory that you have stable internet during the interview, have code ready to show (GitHub, live view, and VSC), are in a quiet environment with appropriate background and clothing.
       </p>
-      <a className="linked-tag" href="https://github.com/YuriDevAT/job-seekers/wiki/Interview-Questions">Interview questions</a>
+      <a className="linked-tag" href="https://github.com/YuriDevAT/yuriscodingclub/wiki/Interview-Questions">Interview questions</a>
     </>
   )
 }

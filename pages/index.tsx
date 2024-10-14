@@ -18,18 +18,9 @@ const Home: NextPage = () => {
       </p>
       <div className="button-container">
         <Link href="/about">
-          <a className="home-button">Let&apos;s get started</a>
+          <span className="home-button">Let&apos;s get started</span>
         </Link>
       </div>
-      {/* <h2>Hacktoberfest 2022</h2>
-      <p>YurisCodingClub was a maintainer project during Hacktoberfest. Issues were provided to all kind of contributors, such as first-time-contributors and no-code-contributors. </p>
-      <p>YCC will be part of Hacktoberfest 2023 for sure. Stay tuned.</p>
-      <a href="https://github.com/YurisCodingClub">Check out the source projects</a>
-      <div className="hacktober-logo">
-        <Link href="https://hacktoberfest.com/">
-          <Image src="/images/hf10_horz_fcd_rgb.png" alt="Official Hacktoberfest 2023 Website" width={250} height={85} />
-        </Link>
-      </div> */}
     </div>
   )
 }

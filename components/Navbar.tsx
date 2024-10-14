@@ -5,23 +5,22 @@ const Navbar = () => {
     <nav className="navbar" id="mainnav">
       <ul>
         <li>
-          <Link href="/about">
-            <a aria-current="page">about</a>
+          <Link href="/about" aria-current="page">
+            about
           </Link>
         </li>
         <li>
-          <Link href="/get-into-coding">
-            <a>get into coding</a>
+          <Link href="/get-into-coding">get into coding
           </Link>
         </li>
         <li>
           <Link href="/create-a-portfolio">
-            <a>create a portfolio</a>
+            create a portfolio
           </Link>
         </li>
         <li>
           <Link href="/get-a-job">
-            <a>get a job</a>
+            get a job
           </Link>
         </li>
         <li>
