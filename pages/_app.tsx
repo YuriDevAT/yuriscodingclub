@@ -22,8 +22,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Layout>
         <Component {...pageProps} />
-          <Analytics />
-          <SpeedInsights />
+        <Analytics />
+        <SpeedInsights />
       </Layout>
     </>
   )
